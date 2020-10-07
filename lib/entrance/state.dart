@@ -1,5 +1,6 @@
 import 'package:fish_redux/fish_redux.dart';
 
+/// 获取数据
 class EntranceState implements Cloneable<EntranceState> {
 
   @override

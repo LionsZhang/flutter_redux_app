@@ -3,7 +3,7 @@ import 'effect.dart';
 import 'reducer.dart';
 import 'state.dart';
 import 'view.dart';
-
+///页面对象组装各种元素
 class EntrancePage extends Page<EntranceState, Map<String, dynamic>> {
   EntrancePage()
       : super(

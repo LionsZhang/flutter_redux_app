@@ -24,7 +24,8 @@ Widget buildView(
               style: TextStyle(color: Colors.white),
             ),
             onPressed: () {
-              //todo 点击事件
+              //主页点击事件分发Action
+              dispatch(EntranceActionCreator.onOpenProductAction());
             }),
       ),
     ),
